@@ -188,15 +188,15 @@ const admin: Admin = {
   admin: true
 }
 
-function acessarSistema<T>(usuario: T): T {
+// function acessarSistema<T>(usuario: T): T {
+//   return usuario;
+// }
+
+// console.log(acessarSistema<Usuario>(usuario));
+// console.log(acessarSistema<Admin>(admin));
+
+function acessarSistema(usuario: Usuario): Usuario {
   return usuario;
-}
+};
 
-console.log(acessarSistema<Usuario>(usuario));
-console.log(acessarSistema<Admin>(admin));
-
-/*function acessarSistema(usuario: Usuario): Usuario {
-  return usuario;
-};*/
-
-// console.log(acessarSistema(usuario));
+console.log(acessarSistema(usuario));

@@ -11,7 +11,7 @@
 export { };
 
 // ==> Variáveis [Type Annotations]
-let nome: string = 'Glaucia Lemos';
+let nome: string = 'Mailson Nascimento';
 console.log(nome);
 
 // ==> Arrays [Type Annotations]

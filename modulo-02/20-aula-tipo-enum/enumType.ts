@@ -18,7 +18,7 @@ enum Idioma {
 
 console.log(Idioma);
 
-// ==> Exemplo 02: String Enums
+//==> Exemplo 02: String Enums
 
 enum Dia {
   Segunda = 'SEG',
@@ -32,7 +32,7 @@ enum Dia {
 
 console.log(Dia);
 
-// ==> Exemplo 03: Como podemos acessar um valor de um Enum com uma chave: (usando o const)
+// // ==> Exemplo 03: Como podemos acessar um valor de um Enum com uma chave: (usando o const)
 
 /*const enum Comida {
   Hamburger,
