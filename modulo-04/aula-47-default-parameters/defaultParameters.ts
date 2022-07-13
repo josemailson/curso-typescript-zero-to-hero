@@ -29,7 +29,7 @@ function exibirNome(nome: string, sobrenome = 'Lemos') {
 
 const resultado_1 = exibirNome('Glaucia');
 const resultado_2 = exibirNome('Glaucia', undefined);
-// const resultado_3 = exibirNome('Glaucia', 'de Souza', 'Senhorita');
+//const resultado_3 = exibirNome('Glaucia', 'de Souza', 'Senhorita');
 const resultado_4 = exibirNome('Glaucia', 'de Souza');
 
 console.log(resultado_1);

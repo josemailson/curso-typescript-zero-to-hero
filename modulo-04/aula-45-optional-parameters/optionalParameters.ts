@@ -27,7 +27,7 @@ function mensagemLog(mensagem: string, usuarioId?: number) {
 }
 
 mensagemLog('Atualizar Página');
-mensagemLog('Usuário(a) logado(a) com sucesso');
+mensagemLog('Usuário(a) logado(a) com sucesso', 778811);
 
 // ==> Exemplo 03
 
