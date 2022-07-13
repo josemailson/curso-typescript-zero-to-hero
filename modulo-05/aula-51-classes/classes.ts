@@ -27,22 +27,22 @@ class Pessoa {
 const pessoa = new Pessoa('Glaucia', 'Lemos');
 console.log(pessoa.nomeCompleto());
 
-// // ==> Exemplo 02 - Classes (sem constructor)
-// class Estudante {
-//   codigoEstudante: number;
-//   nomeEstudante: string;
-// }
+// ==> Exemplo 02 - Classes (sem constructor)
+class Estudante {
+  codigoEstudante: number;
+  nomeEstudante: string;
+}
 
 // Criar um objeto ou a instancia
-// const estudante = new Estudante();
+const estudante = new Estudante();
 
 // Inicializar o objeto:
-// estudante.codigoEstudante = 8967;
-// estudante.nomeEstudante = 'Prince Lemos';
+estudante.codigoEstudante = 8967;
+estudante.nomeEstudante = 'Prince Lemos';
 
 // Acessar os campos:
-// console.log('Código do Estudante...: ' + estudante.codigoEstudante);
-// console.log('Nome do Estudante...: ' + estudante.nomeEstudante);
+console.log('Código do Estudante...: ' + estudante.codigoEstudante);
+console.log('Nome do Estudante...: ' + estudante.nomeEstudante);
 
 // ==> Exemplo 03 - Classes (com constructor)
 class Estudante_1 {

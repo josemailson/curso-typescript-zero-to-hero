@@ -9,17 +9,17 @@
 export {};
 
 // ==> Exemplo 01- Modificador: public
-// class Estudante {
-//   codigoEstudante: number;
-//   nomeEstudante: string;
-// }
+class Estudante {
+  codigoEstudante: number;
+  nomeEstudante: string;
+}
 
-// const estudante = new Estudante();
-// estudante.codigoEstudante = 201;
-// estudante.nomeEstudante = 'Glaucia Lemos';
+const estudante = new Estudante();
+estudante.codigoEstudante = 201;
+estudante.nomeEstudante = 'Glaucia Lemos';
 
-// console.log(estudante.codigoEstudante);
-// console.log(estudante.nomeEstudante);
+console.log(estudante.codigoEstudante);
+console.log(estudante.nomeEstudante);
 
 // ==> Exemplo 02 - Modificador: private
 class Estudante_02 {
